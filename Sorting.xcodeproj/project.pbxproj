@@ -25,6 +25,10 @@
 /* Begin PBXFileReference section */
 		BA7F86091E0038D900A753FE /* Sorting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sorting; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7F860C1E0038D900A753FE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BA7F86131E003DA000A753FE /* selection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selection.h; sourceTree = "<group>"; };
+		BA7F86141E00426300A753FE /* bubble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bubble.h; sourceTree = "<group>"; };
+		BA7F86151E00445500A753FE /* swap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swap.h; sourceTree = "<group>"; };
+		BA7F86161E0047C500A753FE /* insertion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = insertion.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				BA7F860C1E0038D900A753FE /* main.cpp */,
+				BA7F86161E0047C500A753FE /* insertion.h */,
+				BA7F86131E003DA000A753FE /* selection.h */,
+				BA7F86141E00426300A753FE /* bubble.h */,
+				BA7F86151E00445500A753FE /* swap.h */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
